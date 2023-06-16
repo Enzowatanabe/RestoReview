@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>RestôReview</title>
+</head>
+<body>
+    <header>
+        <div class="divlogo">
+        <h1>RestôReview</h1>
+        </div>
+    </header>
+    <main>
+        <section>
+           <form id="authForm" onsubmit="event.preventDefault()">
+            <h2>Login</h2>
+            <input type="text" name="nome" id="userName" placeholder="Seu nome">
+            <input type="email" name="email" id="userEmail" placeholder="Seu email">
+            <input type="password" name="email" id="userSenha" placeholder="Seu senha">
+            <button id="login">Login</button>
+            <button id="cadastrar">Cadastrar</button>
+           </form>
+        </section>
+    </main>
+
+    <script type="module" src="main.js"></script>
+</body>
+</html>

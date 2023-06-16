@@ -1,0 +1,35 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    
+}
+
+:root{
+    --main-color: #386872ff;
+    --darkmain-color: #122F35ff;
+    --darkvar-color: #1B383Cff;
+    --mainvar-color: #29474Bff;
+    --mainvar1-color: #2C525Aff;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+
+
+body{
+    font-family: 'Jost', sans-serif;
+}
+
+header{
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.divlogo{
+    background-color: white;
+    margin-bottom: 20px;
+    margin-left: 15px ;
+    
+}
