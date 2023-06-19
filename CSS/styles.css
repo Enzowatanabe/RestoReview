@@ -1,0 +1,102 @@
+* {
+    padding:0;
+    margin:0;
+    vertical-align:baseline;
+    list-style:none;
+    
+}
+
+:root{
+    --main-color: #386872ff;
+    --darkmain-color: #122F35ff;
+    --darkvar-color: #1B383Cff;
+    --mainvar-color: #29474Bff;
+    --mainvar1-color: #2C525Aff;
+}
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Jost:wght@200&display=swap');
+
+
+body{
+    font-family: 'Jost', sans-serif;
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background:linear-gradient(var(--darkmain-color) , var(--main-color));
+   
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    color: white;
+    margin-top: 10px;
+}
+
+header{
+    padding-top: 20px;
+    border-bottom: 1px solid black;
+}
+
+.divlogo{
+    margin-bottom: 20px;
+    margin-left: 15px ;
+    
+}
+
+.cardlogin{
+    background: linear-gradient(var(--main-color), var(--darkmain-color));
+    border-radius: 35px;
+    position: relative;
+    margin-top: 60px;
+    margin-left: 15%;
+    height: 400px;
+    width: 361px;
+    align-items: center;
+    text-align: center;
+    border: 1px solid black;
+}
+
+.imglogin{
+    margin-top: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 22%;
+    height: 30px;
+    text-align: center;
+}
+
+.inputemail{
+    margin-bottom: 30px;
+    margin-top: 40px;
+}
+
+input:focus{
+    border: 1px solid white;
+}
+
+button{
+    margin-top: 20px;
+    border-radius: 10px;
+    width: 200px;
+    margin-left: 22%;
+    height: 30px;
+    text-align: center;
+}
+
+.indextxt{
+    color: white;
+    font-size: 13px;
+    margin-top: 10px;
+}
